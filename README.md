@@ -1,1 +1,1 @@
-https://travis-ci.org/lolosposaro/corgi-os.svg?branch=master
+<img src="https://travis-ci.org/lolosposaro/corgi-os.svg?branch=master" alt="Build Status" />
