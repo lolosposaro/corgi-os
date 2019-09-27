@@ -13,6 +13,7 @@ import AccountCircle from "@material-ui/icons/AccountCircle";
 import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MoreIcon from "@material-ui/icons/MoreVert";
+import amber from "@material-ui/core/colors/amber";
 
 const useStyles = makeStyles(theme => ({
   grow: {
@@ -75,6 +76,9 @@ const useStyles = makeStyles(theme => ({
     }
   }
 }));
+const appbarStyle = {
+  background: "606060"
+};
 
 export default function PrimarySearchAppBar() {
   const classes = useStyles();
@@ -133,7 +137,7 @@ export default function PrimarySearchAppBar() {
         <p>Messages</p>
       </MenuItem>
       <MenuItem>
-        <IconButton aria-label="show 11 new notifications" color="inherit">
+        <IconButton color="inherit">
           <NotificationsIcon />
         </IconButton>
         <p>Notifications</p>
@@ -154,9 +158,14 @@ export default function PrimarySearchAppBar() {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static">
+      <AppBar
+        position="static"
+        style={{
+          background: "linear-gradient(45deg, #FFC107 30%, #B388FF 90%)"
+        }}
+      >
         <Toolbar>
-          <img src={logo} width="64" height="64" alt=" " />
+          <img src={logo} width="64" height="60" alt=" " />
           <Typography className={classes.title} variant="h6" noWrap>
             CorgiOS
           </Typography>
