@@ -5,9 +5,12 @@ import "./App.css";
 
 function App() {
   return (
-    <header>
-      <Navbar />
-    </header>
+    <div>
+      <header>
+        <Navbar />
+      </header>
+      <Background />
+    </div>
   );
 }
 
