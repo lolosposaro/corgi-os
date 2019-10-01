@@ -1,4 +1,7 @@
-.main {
-  background-image: url("./img/5.jpg");
+.cards {
+  background-color: rgba(63, 54, 54, 0.753);
   border: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

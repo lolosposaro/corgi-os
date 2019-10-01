@@ -5,11 +5,11 @@ import Cards from "./Cards.js";
 
 function App() {
   return (
-    <div className="main">
+    <div>
       <header>
         <Navbar />
       </header>
-      <div>
+      <div className="cards">
         <Cards />
         <Cards />
         <Cards />
