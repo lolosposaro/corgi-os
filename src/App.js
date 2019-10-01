@@ -1,12 +1,11 @@
 import React from "react";
 import Navbar from "./Navbar.js";
-import Background from "./Background.js";
 import "./App.css";
 import Cards from "./Cards.js";
 
 function App() {
   return (
-    <div>
+    <div className="main">
       <header>
         <Navbar />
       </header>
