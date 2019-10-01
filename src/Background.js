@@ -3,7 +3,8 @@ import React from "react";
 const styles = {
   paperContainer: {
     height: 1356,
-    backgroundImage: `url(${"./img/5.jpg"})`
+    wide: 1070,
+    backgroundImage: `url(${"/static/src/img/5.jpg"})`
   }
 };
 
