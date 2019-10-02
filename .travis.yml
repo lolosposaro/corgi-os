@@ -16,7 +16,7 @@ before_install:
   - "npm config set spin false"
   - "npm install -g npm@^2"
   - docker build -t corgi-os .
-  - docker run -d -p 127.0.0.1:4567 corgi-os /bin/bash
+  - docker run -d -p 8080:8080 corgi-os
   - docker ps -a
 
 install:
