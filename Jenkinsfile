@@ -11,12 +11,9 @@ pipeline {
                 sh 'node --version'
                 sh 'npm --version'
                 sh 'npm install'
-               // sh 'npm run test'
-               // sh 'npm run build'
             }
         }
 
     }
 
     }
-}
